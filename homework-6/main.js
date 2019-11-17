@@ -17,10 +17,8 @@ function calcMaxMin() {
 	console.log(min);
 	let max = Math.max.apply(null, numb);
 	console.log(max);
-	
 	}
 calcMaxMin();
-
 
 // Create a function that will replace all number dividing three with ‘foo’, 
 // dividing seven with ‘bar’ and dividing three and seven with ‘foobar’. 
@@ -53,7 +51,6 @@ function finishTraining(){
   console.log('Training is over.');
 }
 startTraining ('9 a.m.', finishTraining);
-
 
 // Create function with 2 string params. 
 // It must check if letters in the first correspond to the number of 
