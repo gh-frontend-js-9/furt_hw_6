@@ -54,3 +54,23 @@ function finishTraining(){
 }
 startTraining ('9 a.m.', finishTraining);
 
+
+// Create function with 2 string params. 
+// It must check if letters in the first correspond to the number of 
+// matches in second and return %.
+
+console.log('task-4')
+
+checkStrings("language", "land");
+function checkStrings(first, second) {
+    let match = 0;
+    for (let i = 0; i < first.length; i++) {
+        for (let k = 0; k < second.length; k++) {
+            if (first[i] == second[k]) {
+                match++;
+            }
+        }
+    }
+    let perc = match / (first.length + second.length) * 100;
+    console.log("percent = " + perc + '%');
+}
